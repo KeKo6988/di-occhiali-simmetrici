@@ -1,3 +1,71 @@
+2021-06-14T19:37:50.2342310Z ##[group]Run python -m pip install mythx-cli
+2021-06-14T19:37:50.2343135Z [36;1mpython -m pip install mythx-cli[0m
+2021-06-14T19:37:50.2390012Z shell: /usr/bin/bash -e {0}
+2021-06-14T19:37:50.2390571Z env:
+2021-06-14T19:37:50.2391091Z   MYTHX_API_KEY: 
+2021-06-14T19:37:50.2391821Z   pythonLocation: /opt/hostedtoolcache/Python/3.8.10/x64
+2021-06-14T19:37:50.2392730Z   LD_LIBRARY_PATH: /opt/hostedtoolcache/Python/3.8.10/x64/lib
+2021-06-14T19:37:50.2393412Z ##[endgroup]
+2021-06-14T19:37:50.8940340Z Collecting mythx-cli
+2021-06-14T19:37:50.9121979Z   Downloading mythx_cli-0.6.22-py2.py3-none-any.whl (48 kB)
+2021-06-14T19:37:51.0149820Z Collecting PyYAML==5.3.1
+2021-06-14T19:37:51.0361527Z   Downloading PyYAML-5.3.1.tar.gz (269 kB)
+2021-06-14T19:37:51.7163523Z Collecting tabulate==0.8.7
+2021-06-14T19:37:51.7199776Z   Downloading tabulate-0.8.7-py3-none-any.whl (24 kB)
+2021-06-14T19:37:51.7589130Z Collecting py-solc-x==1.0.0
+2021-06-14T19:37:51.7633548Z   Downloading py_solc_x-1.0.0-py3-none-any.whl (15 kB)
+2021-06-14T19:37:51.8132755Z Collecting pythx==1.6.1
+2021-06-14T19:37:51.8183559Z   Downloading pythx-1.6.1-py2.py3-none-any.whl (39 kB)
+2021-06-14T19:37:51.8594968Z Collecting Click==7.1.2
+2021-06-14T19:37:51.8648493Z   Downloading click-7.1.2-py2.py3-none-any.whl (82 kB)
+2021-06-14T19:37:51.8980872Z Collecting htmlmin==0.1.12
+2021-06-14T19:37:51.9007122Z   Downloading htmlmin-0.1.12.tar.gz (19 kB)
+2021-06-14T19:37:52.1555456Z Collecting Jinja2==2.11.2
+2021-06-14T19:37:52.1600920Z   Downloading Jinja2-2.11.2-py2.py3-none-any.whl (125 kB)
+2021-06-14T19:37:52.2737909Z Collecting MarkupSafe>=0.23
+2021-06-14T19:37:52.2790329Z   Downloading MarkupSafe-2.0.1-cp38-cp38-manylinux2010_x86_64.whl (30 kB)
+2021-06-14T19:37:52.3758263Z Collecting requests<3,>=2.19.0
+2021-06-14T19:37:52.3821759Z   Downloading requests-2.25.1-py2.py3-none-any.whl (61 kB)
+2021-06-14T19:37:52.4236746Z Collecting semantic-version<3,>=2.8.1
+2021-06-14T19:37:52.4267156Z   Downloading semantic_version-2.8.5-py2.py3-none-any.whl (15 kB)
+2021-06-14T19:37:52.4957266Z Collecting mythx-models==1.9.1
+2021-06-14T19:37:52.4999691Z   Downloading mythx_models-1.9.1-py2.py3-none-any.whl (82 kB)
+2021-06-14T19:37:52.5321112Z Collecting python-dateutil<2.9.0,>=2.8.0
+2021-06-14T19:37:52.5364496Z   Downloading python_dateutil-2.8.1-py2.py3-none-any.whl (227 kB)
+2021-06-14T19:37:52.5833775Z Collecting PyJWT<1.8.0,>=1.7.0
+2021-06-14T19:37:52.5869403Z   Downloading PyJWT-1.7.1-py2.py3-none-any.whl (18 kB)
+2021-06-14T19:37:52.6135294Z Collecting inflection==0.5.0
+2021-06-14T19:37:52.6180089Z   Downloading inflection-0.5.0-py2.py3-none-any.whl (5.8 kB)
+2021-06-14T19:37:52.6720822Z Collecting jsonschema<4.0.0
+2021-06-14T19:37:52.6794681Z   Downloading jsonschema-3.2.0-py2.py3-none-any.whl (56 kB)
+2021-06-14T19:37:52.7161570Z Collecting six>=1.5
+2021-06-14T19:37:52.7197427Z   Downloading six-1.16.0-py2.py3-none-any.whl (11 kB)
+2021-06-14T19:37:52.7718432Z Collecting pyrsistent>=0.14.0
+2021-06-14T19:37:52.7753601Z   Downloading pyrsistent-0.17.3.tar.gz (106 kB)
+2021-06-14T19:37:53.0006902Z Requirement already satisfied: setuptools in /opt/hostedtoolcache/Python/3.8.10/x64/lib/python3.8/site-packages (from jsonschema<4.0.0->mythx-models==1.9.1->pythx==1.6.1->mythx-cli) (56.0.0)
+2021-06-14T19:37:53.0364580Z Collecting attrs>=17.4.0
+2021-06-14T19:37:53.0414517Z   Downloading attrs-21.2.0-py2.py3-none-any.whl (53 kB)
+2021-06-14T19:37:53.1267362Z Collecting idna<3,>=2.5
+2021-06-14T19:37:53.1306970Z   Downloading idna-2.10-py2.py3-none-any.whl (58 kB)
+2021-06-14T19:37:53.1997390Z Collecting urllib3<1.27,>=1.21.1
+2021-06-14T19:37:53.2081166Z   Downloading urllib3-1.26.5-py2.py3-none-any.whl (138 kB)
+2021-06-14T19:37:53.2495440Z Collecting certifi>=2017.4.17
+2021-06-14T19:37:53.2556627Z   Downloading certifi-2021.5.30-py2.py3-none-any.whl (145 kB)
+2021-06-14T19:37:53.2847738Z Collecting chardet<5,>=3.0.2
+2021-06-14T19:37:53.3016533Z   Downloading chardet-4.0.0-py2.py3-none-any.whl (178 kB)
+2021-06-14T19:37:53.3870800Z Using legacy 'setup.py install' for htmlmin, since package 'wheel' is not installed.
+2021-06-14T19:37:53.3873160Z Using legacy 'setup.py install' for PyYAML, since package 'wheel' is not installed.
+2021-06-14T19:37:53.3874812Z Using legacy 'setup.py install' for pyrsistent, since package 'wheel' is not installed.
+2021-06-14T19:37:53.5045599Z Installing collected packages: six, pyrsistent, attrs, urllib3, python-dateutil, jsonschema, inflection, idna, chardet, certifi, semantic-version, requests, PyJWT, mythx-models, MarkupSafe, tabulate, PyYAML, pythx, py-solc-x, Jinja2, htmlmin, Click, mythx-cli
+2021-06-14T19:37:53.5181259Z     Running setup.py install for pyrsistent: started
+2021-06-14T19:37:55.0246162Z     Running setup.py install for pyrsistent: finished with status 'done'
+2021-06-14T19:37:55.6886817Z     Running setup.py install for PyYAML: started
+2021-06-14T19:37:56.0446938Z     Running setup.py install for PyYAML: finished with status 'done'
+2021-06-14T19:37:56.1841289Z     Running setup.py install for htmlmin: started
+2021-06-14T19:37:56.4301850Z     Running setup.py install for htmlmin: finished with status 'done'
+2021-06-14T19:37:56.5300289Z Successfully installed Click-7.1.2 Jinja2-2.11.2 MarkupSafe-2.0.1 PyJWT-1.7.1 PyYAML-5.3.1 attrs-21.2.0 certifi-2021.5.30 chardet-4.0.0 htmlmin-0.1.12 idna-2.10 inflection-0.5.0 jsonschema-3.2.0 mythx-cli-0.6.22 mythx-models-1.9.1 py-solc-x-1.0.0 pyrsistent-0.17.3 python-dateutil-2.8.1 pythx-1.6.1 requests-2.25.1 semantic-version-2.8.5 six-1.16.0 tabulate-0.8.7 urllib3-1.26.5
+
+
 #  workflow pipeline
 name: sushiswap
 
